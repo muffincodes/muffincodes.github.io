@@ -2,7 +2,6 @@
 title: GoogleSheets Automation with Gemini 2.5 Pro
 categories: [Projects with AI]
 tags: [GoogleSheets, Google Workspace, Gmail, Automation, AppScript,Gemini 2.5 Pro ]
-date: 2025-06-06 16:15:00
 ---
 
 # My First AI Project
