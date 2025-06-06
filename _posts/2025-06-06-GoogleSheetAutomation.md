@@ -2,7 +2,7 @@
 title: GoogleSheets Automation with Gemini 2.5 Pro
 categories: [Projects with AI]
 tags: [GoogleSheets, Google Workspace, Gmail, Automation, AppScript,Gemini 2.5 Pro ]
-date: 2025-06-06 16:15:00 +0200
+date: 2025-06-06 16:15:00
 ---
 
 # My First AI Project
@@ -11,7 +11,7 @@ This week, I'd like to share a small project I recently developed and I'm really
 It's not about how simple it is, but about how powerful AI can be in saving us time and improving our work and productivity. If more people took the time to explore these tools and try things hands-on, imagine how far we could go.
 
 # Background - Remedy
-Before we jump into the project itseld, let me give you a bit of context and why it came to life.
+Before we jump into the project itself, let me give you a bit of context and why it came to life.
 
 I work in a Consulting company, and I'm always trying to find ways to be more productive and effiecient using AI.
 
@@ -54,21 +54,24 @@ Since we have access to Google Workspace tools, I decided to ask Gemini for help
 # Gemini
 Here’s the first prompt I gave Gemini:
 
-```text
-I want to create some kind of google sheet tab that is connected to my email and I want ti to get filled ul with certain information of the subject of my email and the date it arrives
-```
+> **Me**:
+> 
+> I want to create some kind of google sheet tab that is connected to my email and I want to get filled ul with certain information of the subject of my email and the date it arrives
+
 
 I didn't have a clear idea yet of the structure of my Google Sheet, but Gemini gave me a great answer:
 
-> You can defintely create a Google Sheet that automatically populates with subject and arrival date of your emails! This is tipically done using **Google Apps Scripts**, a JavaScript-based platform that allows you to extend and automate Google Workspace applications like Gmail and Sheets
+> **Gemini**:
+> 
+> You can defintely create a Google Sheet that automatically populates with subject and arrival date of your emails! This is typically done using **Google Apps Scripts**, a JavaScript-based platform that allows you to extend and automate Google Workspace applications like Gmail and Sheets
 
 With just my second prompt, Gemini gave me a working script to test:
 
-```text
-Can you help me do it? I've created the table and I want to fill the columns Task and Start.
+> **Me**:
+> 
+> Can you help me do it? I've created the table and I want to fill the columns Task and Start.
+> I want the column Task to be filled with a specific information of the Suvject and the Start to be filled with the date I received the email
 
-I want the column Task to be filled with a specific information of the Suvject and the Start to be filled with the date I received the email
-```
 
 After that, I just had to be more specific about the email patterns so Gemini could extract exactly the information I needed.
 
@@ -85,8 +88,6 @@ Here's (blurred) picture of the final result on the Google Sheets.
 And here's an example of the types of emails we were receiving:
 
 ![Email](/assets/Email.jpeg)
-
-In case anyone anyone also wants to give it a try at making their work easier, I'll be also sharing the code. 
 
 # Want to Try It?
 If you're also looking for ways to make your job easier using AI, I’ll be sharing the code I used in this project on my github.
