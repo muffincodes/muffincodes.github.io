@@ -89,6 +89,7 @@ And here's an example of the types of emails we were receiving:
 ![Email](/assets/Email.jpeg)
 
 # Want to Try It?
-If you're also looking for ways to make your job easier using AI, I’ll be sharing the code I used in this project on my github.
+
+If you're also looking for ways to make your job easier using AI, I’ll be sharing the code I used in this project on my [github](https://github.com/muffincodes/codes/tree/main/GoogleSheets_Automation).
 
 Stay tuned!
